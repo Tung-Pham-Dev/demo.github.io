@@ -2445,10 +2445,20 @@ img {
   text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.35);
 }
 
+.hero-style-1 .wedding-date > .mini-text{
+  font-size: 0.8rem;
+  color: #fff;
+}
+
 @media (max-width: 991px) {
   .hero-style-1 .wedding-date span, .hero-style-4 .wedding-date span, .static-hero .wedding-date span, .static-hero-s2 .wedding-date span, .static-hero-s3 .wedding-date span, .static-hero-s4 .wedding-date span {
     font-size: 10px;
     font-size: 0.66667rem;
+  }
+
+  .hero-style-1 .wedding-date > .mini-text{
+    margin-top: 5px;
+    font-size: 0.04rem;
   }
 }
 
