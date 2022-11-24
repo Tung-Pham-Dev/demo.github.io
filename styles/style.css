@@ -2390,25 +2390,37 @@ img {
 
 .hero-style-1 .slide-main-text .slide-title i {
 	font-size: 3rem;
-    color: #dfa09f;
+  color: #dfa09f;
 }
 
 @media (max-width: 450px) {
-  .hero-style-1 .slide-main-text .slide-title i, .hero-style-1 .slide-main-text .slide-title span {display:block;}
+  .hero-style-1 {
+    max-height: 200px;
+  }
+  .hero-style-1 .slide-main-text .slide-title i, .hero-style-1 .slide-main-text .slide-title span {
+    display:block;
+  }
 }
 
 @media (max-width: 1199px) {
+  .hero-style-1 {
+    max-height: 300px;
+  }
   .hero-style-1 h2, .hero-style-4 h2, .static-hero h2, .static-hero-s2 h2, .static-hero-s3 h2, .static-hero-s4 h2 {
-    font-size: 80px;
-    font-size: 5.33333rem;
+    font-size: 70px;
+    font-size: 4.33333rem;
   }
 }
 
 @media (max-width: 991px) {
+  .hero-style-1 {
+    max-height: 300px;
+  }
   .hero-style-1 h2, .hero-style-4 h2, .static-hero h2, .static-hero-s2 h2, .static-hero-s3 h2, .static-hero-s4 h2 {
     font-size: 60px;
     font-size: 4rem;
   }
+  
 }
 
 @media (max-width: 767px) {
@@ -3292,6 +3304,7 @@ img {
 @media (max-width: 991px) {
   .invitation-section .invitation-box {
     max-width: 500px;
+    max-height: 550px;
     margin: 50px auto;
   }
 }
@@ -3301,6 +3314,9 @@ img {
     max-width: 300px;
     padding: 50px 40px;
     margin: 50px auto;
+  }
+  .invitation-section .left {
+    max-height: 400px;
   }
   
   .invitation-section .invitation-box.left {margin-top:0;}
