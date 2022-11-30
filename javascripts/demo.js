@@ -16,7 +16,7 @@ if (biicore.bgMusic) {
 			audioPlayer.setAttribute("src", "./MotNha.mp3");
 			document.getElementsByClassName("bii-player")[0].style.display = "block";
 		}
-		audioPlayer.volume = 0.3;
+		audioPlayer.volume = 0.8;
 		audioPlayer.setAttribute("controls", "controls");
 		document.body.appendChild(audioPlayer);
 	}, 1000);
