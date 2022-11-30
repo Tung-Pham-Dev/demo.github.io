@@ -16,8 +16,13 @@ if (biicore.bgMusic) {
 			audioPlayer.setAttribute("src", "./MotNha.mp3");
 			document.getElementsByClassName("bii-player")[0].style.display = "block";
 		}
+
+
+		audioPlayer.play();
 		audioPlayer.volume = 0.8;
 		audioPlayer.setAttribute("controls", "controls");
+		audioPlayer.setAttribute("autoplay", "autoplay");
+		audioPlayer.setAttribute("loop", "loop");
 		document.body.appendChild(audioPlayer);
 	}, 1000);
 
@@ -33,7 +38,7 @@ if (biicore.bgMusic) {
 		}
 	}, 200);
 
-	audioPlayer.play();
+
 	function playPause() {
 		document.getElementsByClassName("bii-player")[0].classList.remove("show-sec");
 		if (audioPlayer.paused) {
