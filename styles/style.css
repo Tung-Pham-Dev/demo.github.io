@@ -8489,12 +8489,11 @@ img {
 }
 
 .section-accessibilities {
-  background: rgb(242, 237, 237);
+  background: url("../images/bg.png") !important;
   padding: 0;
 }
 
 .section-accessibilities .btn-container {
-  margin-top: 20px;
   margin-bottom: 30px;
 }
 
