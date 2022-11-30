@@ -188,18 +188,18 @@ img {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 20px 0;
 }
 
 @media (max-width: 991px) {
   .section-padding {
-    padding: 100px 0;
+    padding: 10px 0;
   }
 }
 
 @media (max-width: 767px) {
   .section-padding {
-    padding: 90px 0;
+    padding: 10px 0;
   }
 }
 
@@ -1807,8 +1807,7 @@ img {
 
 @media (max-width: 991px) {
   .header-style-1 .topbar {
-    padding: 40px 0 30px;
-    display: none;
+    padding: 10px 0;
   }
 }
 
@@ -2368,6 +2367,7 @@ img {
   align-items: center;
 }
 
+
 .navbar-header .logo a {
   color: #c89d9c;
   font-size: 1.8rem;
@@ -2378,16 +2378,11 @@ img {
 }
 
 @media (min-width: 992px) {
-  .navigation.original .navbar-header .logo {
-    display: none;
+  .navbar-header {
+    display: block;
   }
 }
 
-@media (max-width: 767px) {
-  .navbar-header .logo {
-    padding: 12px 13px;
-  }
-}
 
 /*--------------------------------------------------------------
 #0.4	hero slider
