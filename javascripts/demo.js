@@ -10,8 +10,6 @@ window.onload = (event) => {
 if (biicore.bgMusic) {
 	var audioPlayer = document.createElement("AUDIO");
 	audioPlayer.style.display = "none";
-	audioPlayer.setAttribute("autoplay", "autoplay");
-	audioPlayer.setAttribute("loop", "loop");
 
 	setTimeout(function () {
 		if (audioPlayer.canPlayType("audio/mpeg")) {
@@ -21,8 +19,9 @@ if (biicore.bgMusic) {
 
 		audioPlayer.volume = 0.8;
 		audioPlayer.setAttribute("controls", "controls");
+		audioPlayer.setAttribute("autoplay", "");
+		audioPlayer.setAttribute("loop", "");
 		document.body.appendChild(audioPlayer);
-		audioPlayer.play();
 	}, 1000);
 
 	var myInterval = setInterval(function () {
