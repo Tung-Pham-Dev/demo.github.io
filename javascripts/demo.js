@@ -18,12 +18,12 @@ if (biicore.bgMusic) {
 		}
 
 
-		audioPlayer.play();
 		audioPlayer.volume = 0.8;
 		audioPlayer.setAttribute("controls", "controls");
 		audioPlayer.setAttribute("autoplay", "autoplay");
 		audioPlayer.setAttribute("loop", "loop");
 		document.body.appendChild(audioPlayer);
+		audioPlayer.play();
 	}, 1000);
 
 	var myInterval = setInterval(function () {
@@ -40,7 +40,8 @@ if (biicore.bgMusic) {
 
 
 	function playPause() {
-		document.getElementsByClassName("bii-player")[0].classList.remove("show-sec");
+		document.getElementsByClassName("bii-player")[0].classList.add("show-sec");
+
 		if (audioPlayer.paused) {
 			audioPlayer.play();
 			document.getElementById("playerVolumeOff").style.display = "none";
