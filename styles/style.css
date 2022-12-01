@@ -3374,6 +3374,7 @@ img {
   font-size: 14px;
   font-size: 0.93333rem;
   margin: 0;
+  bottom: 0;
 }
 
 @media (max-width: 991px) {
