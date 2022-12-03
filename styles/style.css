@@ -3053,7 +3053,7 @@ img {
 
 @media (max-width: 991px) {
   .footer-style-1 {
-    min-height: 700px;
+    min-height: 400px;
     background-color: rgba(178, 201, 211, 0.1);
   }
 }
@@ -3065,7 +3065,7 @@ img {
 .footer-style-1 .inner {
   width: 100%;
   position: absolute;
-  top: 50%;
+  top: 60%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -o-transform: translateY(-50%);
